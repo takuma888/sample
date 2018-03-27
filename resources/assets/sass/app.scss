@@ -74,6 +74,15 @@ p {
     color: #fff;
   }
 }
+#logout {
+  cursor: default;
+  &:hover {
+    background-color: transparent;
+  }
+  button {
+    // background-color:red;
+  }
+}
 
 footer {
   margin-top: 45px;
@@ -174,3 +183,4 @@ input {
 .panel {
   margin-top: 50px;
 }
+
