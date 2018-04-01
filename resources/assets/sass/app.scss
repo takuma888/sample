@@ -84,6 +84,15 @@ p {
   }
 }
 
+header {
+    ul {
+        float: right;
+        >li {
+            float: left;
+        }
+    }
+}
+
 footer {
   margin-top: 45px;
   padding-top: 5px;
