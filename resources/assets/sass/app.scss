@@ -85,12 +85,12 @@ p {
 }
 
 header {
-    >ul {
-        float: right;
-        >li {
-            float: left;
-        }
+   ul.navbar-right {
+     float: right;
+     >li {
+       float: left;
     }
+  }
 }
 
 footer {
